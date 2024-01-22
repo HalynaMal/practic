@@ -27,8 +27,9 @@ btnRef.addEventListener('click', () => {
         <input id="leftSwapInput" type="text" value="???" />
         <input id="rightSwapInput" type="text" value="!!!" />
    </div>
+*/
 
-   */
+
 
 // 3
    /*

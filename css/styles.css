@@ -20,10 +20,6 @@ ul {
   transform: scale(1.04);
 }
 
-.gallery-link {
-
-}
-
 .gallery-image {
   display: block;
   width: 100%;
@@ -31,3 +27,41 @@ ul {
   
 }
 
+.feedback-form {
+  width: 360px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.feedback-form > label {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  font: inherit;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+button {
+display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #4E75FF;
+color: #FFF;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.64px;
+}
