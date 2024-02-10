@@ -75,11 +75,12 @@ function makePromise(mas) {
   const delay = result ? 1000 : 2000;
  
   const promise = new Promise((resolve) => {
-    setTimeout(() => { 
+    setTimeout(() => {
       resolve(text)
     }, delay)
   });
   return promise;
+}
   makePromise(massage).then(res=>console.log(res)).catch(er=>console.log('error'))
 //====================
 
@@ -126,18 +127,18 @@ function makePromise(mas) {
  * На кінці вивести повідомлення про те, що ланцюжок завершив виконання.
  * Перемістити метод catch в середину ланцюжка.
  */
-  Promise.resolve(7).then((num) => {
-    return num * 2
-  })
-    .then((num) => {
-      return num * 2
-    })
-    .then(() => {
-      //     return Promise.reject('error') - 1
-      return error // - 2
-    })
-    .then(console.log)
-    .catch(console.log)
-  .finally(()=> console.log('finally'))
+  // Promise.resolve(7).then((num) => {
+  //   return num * 2
+  // })
+  //   .then((num) => {
+  //     return num * 2
+  //   })
+  //   .then(() => {
+  //     //     return Promise.reject('error') - 1
+  //     return error // - 2
+  //   })
+  //   .then(console.log)
+  //   .catch(console.log)
+  // .finally(()=> console.log('finally'))
 
   
