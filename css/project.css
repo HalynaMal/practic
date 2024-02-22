@@ -1,13 +1,76 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: 111111;
-    border-radius: 40px;
-    cursor: pointer;
+border: 2px solid violet;
+border-radius: 40px;
+width: 124px;
+height: 46px;
 }
 
 button:hover {
-    background-color: #4579e9;
+background-color: #4579e9;
 }
 
+.home-books {}
 
+.home-title {
+font-weight: 700;
+font-size: 32px;
+line-height: 119%;
+letter-spacing: -0.04em;
+color: #111;
+}
+
+.h1-accent { color: #4f2ee8;}
+
+.blocks-book {}
+
+.categor-book {
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #b4afaf;
+}
+
+.list-book {}
+
+.card-book {}
+
+.book-content {}
+
+.book-title {
+font-weight: 700;
+font-size: 16px;
+line-height: 112%;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #111;
+}
+
+.book-author {
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.04em;
+color: #b4afaf;
+}
+
+.btn-see-more {
+font-weight: 700;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #111;
+}
