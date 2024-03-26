@@ -1,6 +1,6 @@
 const STORAGE_KEY = "feedback-form-footer";
 
-const form = document.querySelector(".feedback-form");
+const form = document.querySelector(".footer-form-btn");
 
 form.addEventListener("input", () => {
     const userEmail = form.elements.email.value;
@@ -19,9 +19,9 @@ form.addEventListener("submit", (e) => {
   const userEmail = form.elements.email.value;
   
   if (userEmail.trim() === '') {
-      // alert('Будь ласка, введіть email.');
+      // alert('введіть email.');
       Swal.fire({
-        title: "Будь ласка, введіть Ваш email",
+        title: "Введіть email",
         // text: "Це може бути кращим варіантом для кастомізації і стилізації.",
         icon: "warning", // Може бути 'success', 'error', 'warning', 'info', тощо
         confirmButtonText: "ОК",
